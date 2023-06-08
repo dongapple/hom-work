@@ -1,11 +1,11 @@
+
+
 /* 로그인 글자 */
-p {
+span {
   font-family: Pretendard;
   font-size: 15px;
   font-weight: 700;
   line-height: 23px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #FFFF00;
   margin: 0;
 }
@@ -17,25 +17,32 @@ p {
   border-radius: 5px;
   display: table;
 }
-
-/* 하양 필드 셋 */
-.fieldset {
-  border: none;
-  margin-top: 8px;
-  padding: 0;
-}
-.fieldset2 {
+/*흰색 로그인 박스*/
+.login_box {
   background-color: white;
   border-radius: 5px;
+  margin-top: 8px;
   margin-bottom: 0;
   position: relative;
+}
+
+/* 필드 셋 */
+.fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
 }
 
 /* 아이디 비밀번호 입력 창 */
 .login__insert {
   padding: 8px;
   font-size: 0px;
-  
 }
 
 /* 입력 창 */
@@ -61,7 +68,6 @@ p {
   border: solid 0.5px;
   margin-bottom: 2px;
   padding: 0px 0px 0px 8px;
-  /* //styleName: Label/Medium; */
   font-family: Pretendard;
   font-size: 14px;
   font-weight: 400;
