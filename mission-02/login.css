@@ -1,0 +1,115 @@
+/* 로그인 글자 */
+p {
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFF00;
+  margin: 0;
+}
+
+/* 주황 로그인 폼 */
+.loginForm {
+  background: linear-gradient(to right, #ED552F, #E8852E);
+  padding: 12px;
+  border-radius: 5px;
+  display: table;
+}
+
+/* 하양 필드 셋 */
+.fieldset {
+  border: none;
+  margin-top: 8px;
+  padding: 0;
+}
+.fieldset2 {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+/* 아이디 비밀번호 입력 창 */
+.login__insert {
+  padding: 8px;
+  font-size: 0px;
+  
+}
+
+/* 입력 창 */
+
+/* 입력창 라벨 */
+.login__Label {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 56px;
+  margin: 0;
+  display: inline-block;
+}
+
+/* 입력창 인풋 */
+.login__Input {
+  height: 24px;
+  width: 82px;
+  border-radius: 5px;
+  border: solid 0.5px;
+  margin-bottom: 2px;
+  padding: 0px 0px 0px 8px;
+  /* //styleName: Label/Medium; */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+/* 로그인 버튼 */
+.login__button {
+  background-color: #ED552F;
+  height: 53px;
+  width: 50px;
+  left: 162px;
+  top: 8px;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  font-family: Pretendard;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+ul {
+  
+  width: 209px;
+  padding: 8px 4px;
+  margin: 0 5.5px;
+  text-align: center;
+  box-sizing : border-box;
+  border-top: black solid 1px;
+}
+
+li {
+  
+  display: inline;
+  font-family: Pretendard;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 11px;
+}
+li:first-child{
+margin-right: 10px;
+}
