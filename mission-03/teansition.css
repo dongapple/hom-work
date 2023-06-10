@@ -23,8 +23,6 @@
 .ani-Wrapper {
   width: 166px;
   height: 27px;
-  padding: 1.5px 0 0 28px;
-  top: 31px;
   border: solid 1px #A3A3A3;
   border-radius: 5px;
   box-sizing: border-box;
@@ -32,14 +30,13 @@
   overflow: hidden;
   transition: height 0.5s, padding 0.3s;
   transition-delay: 0.3s, 0.5s;
-
 }
 
 .ani-Wrapper:hover {
   transition: openEffect;
   height: 145px;
   transition: height 0.5s, padding 0.3s;
-  padding-top: 4px;
+  padding-top: 2.5px;
   transition-delay: 0.3s, 0.5s;
 }
 
@@ -52,6 +49,7 @@
 .ani-list {
   display: flex;
   flex-direction: column;
+  padding: 1.5px 0 0 28px;
   border-radius: 5px;
   gap: 8px;
 }
