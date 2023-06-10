@@ -1,0 +1,61 @@
+.ani-box {
+  left: 0px;
+  top: 0px;
+  border-radius: 0 0 5px 5px;
+  border: solid 1px #A3A3A3;
+  padding: 12px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%),
+    linear-gradient(0deg, #A3A3A3, #A3A3A3);
+  display: table;
+
+}
+
+.ani-Wrapper {
+  width: 166px;
+  left: 0px;
+  top: 31px;
+  border: solid 1px #A3A3A3;
+  border-radius: 5px;
+  padding: 0px 65px 0px 24px;
+  background-color: #fff;
+  padding: 0%;
+  margin: 0%;
+}
+
+.p-title {
+    /* //styleName: heading/Large; */
+  width: auto;
+    font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  background-color: red;
+  display: inline;
+  padding: 0%;
+  margin: 0%;
+}
+
+.ani-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+flex-direction: column;
+
+}
+
+.ani-item {
+  /* //styleName: Paragraph/Medium; */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 4;
+  background-color: yellow;
+  padding: 0%;
+  margin: 0%;
+}
+  
