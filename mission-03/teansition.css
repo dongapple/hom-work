@@ -29,20 +29,20 @@
   background-color: #fff;
   overflow: hidden;
   transition: height 0.5s, padding 0.3s;
-  transition-delay: 0.3s, 0.5s;
+  transition-delay: 0s, 0.5s;
 }
 
 .ani-box:hover {
-  height: 145px;
-  padding-top: 2.5px;
+  height: 150px;
+  padding-top: 5px;
   transition: height 0.5s, padding 0.3s;
-  transition-delay: 0.3s, 0.5s;
+  transition-delay: 0s, 0.5s;
 }
 
 .ani-list {
   display: flex;
   flex-direction: column;
-  padding: 1.5px 0 0 28px;
+  padding: 1.5px 0 0 0;
   border-radius: 5px;
   gap: 8px;
 }
@@ -52,6 +52,9 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  transition: padding 1s;
-  transition-delay: 0.5s;
+}
+
+.ani-link{
+  display: block;
+  padding-left: 28px;
 }
