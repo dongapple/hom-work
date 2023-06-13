@@ -1,0 +1,77 @@
+/* h2 class="gird-title">새소식</h2>
+
+  <div class="moreLink">
+    <img src="imgs/Union.png" />
+    <a href="/">더보기</a>
+  </div>
+
+  <section class="gridImg">
+    <a href="" class="gridImg-link">
+      <img src="imgs/news 1.png" alt="" class="gridImg-src" />
+      <span class="gridImg-span">W3C 리뉴얼</span>
+    </a>
+  </section>
+
+  <section class="gridDetail">
+    <a href="" class="gridDetail-link">
+      <h3 class="gridDetail-title">W3C 사이트가 리뉴얼 되었습니다.</h3>
+      <span class="gridDetail-span">2022.07.18</span>
+      <p class="gridDetail-paragraph">디자인 및 다양한 view 환경을 고려하여 구성되어 있으며, 기존보다 최신 정보 및 개발자를 위한 기술 가이드도 찾기 쉽도록 구성되어 있습니다.</p>
+    </a>
+  </section> */
+
+a{
+  display: block;
+}
+h3{display: block;}
+
+.gird-title {
+  /* //styleName: heading/Medium; */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ED552F;
+  display: inline-block;
+}
+
+
+.moreLink-link {
+  /* //styleName: Paragraph/Medium; */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  float: right;
+}
+
+.moreLink-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.gridImg {
+  grid-area: gridImg;
+  text-align: center;
+  background-color: #ED552F;
+}
+
+.gridDetail {
+  grid-area: gridDetail;
+  background-color: blue;
+}
+
+.girdMain {
+  display: grid;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:"gridImg gridDetail gridDetail";
+}
